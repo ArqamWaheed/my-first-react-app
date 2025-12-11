@@ -1,5 +1,11 @@
-function Mf() {
-    return <h1>Yo wassup gurt</h1>;
+import PropTypes from 'prop-types';
+
+function Mf({name}) {
+    return <h1>Yo wassup {name}</h1>;
+}
+
+Mf.propTypes = {
+    name: PropTypes.string,
 }
 
 export default Mf;

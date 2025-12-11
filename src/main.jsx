@@ -7,6 +7,6 @@ import Mf from './greetings.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Mf />
+    <Mf name="Gamma"/>
   </StrictMode>,
 )
